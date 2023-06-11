@@ -23,6 +23,11 @@ namespace BlizzyXWebSite.Controllers
             return View();
         }
 
+        public IActionResult TeamInfo()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
